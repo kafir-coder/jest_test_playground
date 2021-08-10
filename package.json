@@ -1,0 +1,43 @@
+{
+  "name": "jest_test_playground",
+  "version": "1.0.0",
+  "description": "A simple project for training jest",
+  "main": "index.js",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafir-coder/jest_test_playground.git"
+  },
+  "keywords": [
+    "Jest",
+    "Test",
+    "mocks",
+    "spies",
+    "stubs"
+  ],
+  "author": "Caio Tony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kafir-coder/jest_test_playground/issues"
+  },
+  "homepage": "https://github.com/kafir-coder/jest_test_playground#readme",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "lint-staged": "^11.1.2",
+    "prettier": "2.3.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

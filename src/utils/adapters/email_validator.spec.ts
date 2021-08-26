@@ -15,12 +15,4 @@ describe('Email_validator adapter', () => {
 		const result = sut.validate(email);
 		expect(result).toBe(true);
 	});
-
-	it('it should return false if email is invalid', async () => {
-		const sut = make_sut();
-		const email = 'invalid.pumpum@asano.jp';
-		jest.spyOn(validator, 'isEmail').mockReturnValueOnce(false);
-		const result = sut.validate(email);
-		expect(result).toBe(false);
-	});
 });

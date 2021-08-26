@@ -7,7 +7,8 @@
 		"**/*": "prettier --write --ignore-unknown"
 	},
 	"scripts": {
-		"test": "jest --coverage"
+		"test:coverage": "jest --coverage",
+		"test:normal": "jest"
 	},
 	"repository": {
 		"type": "git",
@@ -31,6 +32,7 @@
 		"@babel/preset-typescript": "^7.15.0",
 		"@types/jest": "^26.0.24",
 		"@types/ramda": "^0.27.44",
+		"@types/validator": "^13.6.3",
 		"@typescript-eslint/eslint-plugin": "^4.29.1",
 		"@typescript-eslint/parser": "^4.29.1",
 		"eslint": "^7.32.0",
@@ -42,6 +44,7 @@
 	},
 	"dependencies": {
 		"express": "^4.17.1",
-		"ramda": "^0.27.1"
+		"ramda": "^0.27.1",
+		"validator": "^13.6.0"
 	}
 }
